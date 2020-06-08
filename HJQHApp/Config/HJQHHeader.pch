@@ -1,0 +1,33 @@
+//
+//  HJQHHeader.pch
+//  HJQHApp
+//
+//  Created by xjg on 2020/5/25.
+//  Copyright © 2020 rui cong. All rights reserved.
+//
+
+#ifndef HJQHHeader_pch
+#define HJQHHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+#import <Masonry/Masonry.h>
+#import <XRCarouselView/XRCarouselView.h>
+#import <CYLTabBarController/CYLTabBarController.h>
+#import "HJQHNavigationVC.h"
+#import "UIImage+HJQHImageWithColor.h"
+#import <YYImage/YYImage.h>
+#import "HJQHApp-Swift.h"
+
+//8F0000   143 0 0
+#define HJQHThemeColor    [UIColor colorWithRed:143/255.0 green:0 blue:0 alpha:1]
+#define HJQHNormalTabbar  [UIColor colorWithRed:191/255.0 green:191/255.0 blue:191/255.0 alpha:1]
+
+#define HJQHScreenWIDE UIScreen.mainScreen.bounds.size.width
+#define HJQHScreenHEIGHT UIScreen.mainScreen.bounds.size.height
+#endif /* HJQHHeader_pch */
+
